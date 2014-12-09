@@ -2,20 +2,21 @@ WP-Invoices
 ===========
 
 A simple demo app exploring the WordPress WP-API. I prepared this to accompany
-a recent talk at [Bristol Open Source Meetup (http://www.meetup.com/bristol-open-source-user-group/)].
+a recent talk at [Bristol Open Source Meetup](http://www.meetup.com/bristol-open-source-user-group/).
 
-Find the slides [here (http://www.slideshare.net/TimStephenson/wordpress-as-a-platform-talk-to-bristol-open-source-meetup-20141208)]
+Find the slides [here](http://www.slideshare.net/TimStephenson/wordpress-as-a-platform-talk-to-bristol-open-source-meetup-20141208)
 
 Install
 -------
 
  - I used WordPress 4.1 beta but I don't expect problems with any recent version.
- - Install the [WP-API plugin (http://wp-api.org)] because although it is
+ - Install the [WP-API plugin](http://wp-api.org) because although it is
    'aiming' to become part of core in 4.1 I could not find any sign of it.
- - Also install [HTTP Basic authentication plugin (https://github.com/WP-API/Basic-Auth)]
+ - Also install [HTTP Basic authentication plugin](https://github.com/WP-API/Basic-Auth)
    At the top of js/app.js you can see the HTTP Basic credentials for my dev
    server, which you should replace for the demo to work (unless you can also
    login as admin/admin!).
+ - Make sure you have pretty permalinks enabled. 
  - Copy the project files into the web server root.
  - Open http://localhost/index.html in your browser.  
 
